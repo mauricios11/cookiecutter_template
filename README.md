@@ -2,10 +2,8 @@
 
 This is a template for data science projects using `cookiecutter`
 
-## cookiecuter - Data Analysis project 
 
-This is a Cookiecutter template for creating a data analysis project 
-#### Project Features
+### Project Features
 - Python 3.7+
 - Git integration
 - Python preset functions
