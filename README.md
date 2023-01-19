@@ -2,15 +2,15 @@
 
 This is a template for data science projects using `cookiecutter`
 
-# cookiecuter - Data Analysis project 
+## cookiecuter - Data Analysis project 
 
 This is a Cookiecutter template for creating a data analysis project 
-## Project Features
+#### Project Features
 - Python 3.7+
 - Git integration
 - Python preset functions
 
-## Requirements
+### Requirements
 - Anaconda >= 4.x
 - git >= 2.x
 - Cookiecutter Python package >= 1.4.0: 
@@ -30,13 +30,13 @@ conda install -c conda-forge cookiecutter
 ```
 
 
-## Usage
+### Usage
 In the directory that you create for the project, execute in terminal:
 
 ```
 cookiecutter https://github.com/mauricios11/cookiecutter_template
 ```
-## Credits
+### Credits
 This project was made it in base of:
 - [Platzi](https://platzi.com) *Configuración Profesional de Entorno de Trabajo para Ciencia de Datos* course by [Jesús Vélez Santiago](https://github.com/jvelezmagic)
 - [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science) repository by [Driven Data](https://github.com/drivendata)
