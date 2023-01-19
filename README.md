@@ -39,4 +39,3 @@ cookiecutter https://github.com/mauricios11/cookiecutter_template
 ### Credits
 This project was made it in base of:
 - [Platzi](https://platzi.com) *Configuración Profesional de Entorno de Trabajo para Ciencia de Datos* course by [Jesús Vélez Santiago](https://github.com/jvelezmagic)
-- [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science) repository by [Driven Data](https://github.com/drivendata)
