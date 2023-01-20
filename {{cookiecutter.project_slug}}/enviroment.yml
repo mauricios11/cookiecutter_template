@@ -1,15 +1,19 @@
 #conda env create --file enviroment.yml
 
-name: {{ cookiecutter.project_slug }}
+name of the project: {{ cookiecutter.project_slug }}
 channels:
   - anaconda
   - conda-forge
   - defaults
+
+author/s of the project: {{ cookiecutter.project_author_name }}
+
+email: {{ cookiecutter.project_author_email }}
 dependencies:
   {% if cookiecutter.project_packages == "ALL" -%}
   - fs
   - jupyter
-  - jupiterlab
+  - jupyterlab
   - pathlib
   {% endif -%}
   - pip
