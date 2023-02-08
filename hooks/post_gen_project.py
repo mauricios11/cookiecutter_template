@@ -12,7 +12,7 @@ RESET_ALL = "\x1b[0m"
 
 activate_git = input("Do you want to initialize git? [yes] [no]:")
 
-if activate_git == "y":
+if activate_git == "yes":
     subprocess.call(['git', 'init'])
     subprocess.call(['git', 'add', '*'])
     subprocess.call(['git' ,'commit', '-m', 'Initial commit'])
