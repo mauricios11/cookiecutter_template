@@ -1,0 +1,48 @@
+# conda env create --file enviroment.yml
+
+name: {{ cookiecutter.project_slug }}
+channels: 
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - invoke
+  - fs
+  - jupyter
+  - jupyterlab
+  {% if cookiecutter.project_packages == "ALL" -%}
+  - missingno
+  {% endif -%}
+  - matplotlib
+  - numpy
+  - pandas
+  - pathlib
+  - pip
+  {% if cookiecutter.project_packages == "ALL" -%}
+  - plotly
+  {% endif -%}
+  - pyprojroot
+  {% if cookiecutter.project_packages == "ALL" -%}
+  - pyjanitor
+  {%  endif -%}
+  - python={{ cookiecutter.python_version }}
+  {% if cookiecutter.project_packages == "ALL" -%}
+  - pyreadr
+  {% endif -%}
+  - seaborn
+  - scipy
+  {% if cookiecutter.need_scikitlearn == "True" -%}
+  - scikit-learn
+  {% endif -%}
+  {% if cookiecutter.project_packages == "ALL" -%}
+  - statsmodels
+  {% endif -%}
+  {% if cookiecutter.project_packages == "ALL" -%}
+  - upsetplot
+  {% endif -%}
+  - pip:
+    {% if cookiecutter.project_packages == "ALL" -%}
+    - pyhere
+    {% endif -%}
+ 

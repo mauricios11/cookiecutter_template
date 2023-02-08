@@ -1,0 +1,17 @@
+## Si sale este error:
+# "A valid repository for "x" could not be found in the following locations:" 
+
+# Es porque para correr esta plantilla, es necesario tener `cookiecutter=1.7.3` 
+## También será necesario: carpeta hooks, archivo.json (en la ubicación de la plantilla)
+
+# instalar cookiecutter manualmente o con este archivo usando:
+## conda env create --file enviroment.yml
+## mamba env create --file enviroment.yml
+
+name: plantilla_1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cookiecutter=1.7.3
+prefix: /Users/holamauricios/anaconda3/envs/plantilla_1

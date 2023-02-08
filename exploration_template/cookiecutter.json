@@ -1,0 +1,11 @@
+{
+    "project_title": "Data exploration Template",
+    "project_slug": "{{ cookiecutter.project_title.lower().replace(' ','_').replace('-','_') }}",
+    "project_description": "This is a template for data exploration. The libraries in this template are in: enviroment.yml",
+    "project_author_name": "Enter author name/s",
+    "project_nb_name": "Enter your nickname (for add it to notebook's prefix name)",
+    "project_author_email": "Enter your e-mail",
+    "project_packages": ["ALL","Minimal"],
+    "python_version": "3.9",
+    "need_scikitlearn": ["Yes", "No"] 
+}
