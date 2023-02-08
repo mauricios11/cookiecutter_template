@@ -10,10 +10,13 @@ MESSAGE_COLOR_G = "\x1b[32m"
 
 RESET_ALL = "\x1b[0m"
 
-subprocess.call(['git', 'init'])
-subprocess.call(['git', 'add', '*'])
-subprocess.call(['git' ,'commit', '-m', 'Initial commit'])
-subprocess.call(['git','branch','-M', 'main'])
+activate_git = input("Do you want to initialize git? [yes] [no]:")
+
+if activate_git == "y":
+    subprocess.call(['git', 'init'])
+    subprocess.call(['git', 'add', '*'])
+    subprocess.call(['git' ,'commit', '-m', 'Initial commit'])
+    subprocess.call(['git','branch','-M', 'main'])
 
 input_ =input("Do you want to install the enviroment? [y][n]: ")
 
