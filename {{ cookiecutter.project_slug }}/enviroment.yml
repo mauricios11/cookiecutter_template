@@ -1,4 +1,5 @@
 # conda env create --file enviroment.yml
+# mamba env create --file
 
 name: {{ cookiecutter.project_slug }}
 channels: 
